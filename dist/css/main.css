@@ -172,16 +172,42 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rems; }
+    .about-info .bio p {
+      font-size: 1.5rem; }
   .about-info .job1 {
     grid-area: job1; }
-  .about-info .job2 {
-    grid-area: job2; }
-  .about-info .job3 {
-    grid-area: job3; }
   .about-info .job {
     background: #515151;
-    padding: 0.5rems;
+    padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+
+#resume-span {
+  background: #eeeeee;
+  color: black;
+  padding: 0.25rem;
+  border-radius: 10%;
+  transition: all 0.5s ease-out; }
+  #resume-span:hover {
+    padding: 0.5rem 1.5rem;
+    background: #eece1a;
+    transition: all 0.5s ease-out; }
+
+.stack-div {
+  display: inline; }
+  .stack-div .lang-div {
+    margin-top: 1.5rem; }
+  .stack-div .lang-div p {
+    display: inline; }
+  .stack-div .lang-div p#lang {
+    background: #333;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 10%;
+    transition: all 0.5s ease-out; }
+    .stack-div .lang-div p#lang:hover {
+      background: #eece1a;
+      padding: 0.5rem 1.5rem;
+      color: #000; }
 
 .projects {
   display: grid;

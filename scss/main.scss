@@ -92,20 +92,63 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rems;
+
+    p {
+      font-size: 1.5rem;
+    }
   }
   .job1 {
     grid-area: job1;
   }
-  .job2 {
-    grid-area: job2;
-  }
-  .job3 {
-    grid-area: job3;
-  }
+  // .job2 {
+  //   grid-area: job2;
+  // }
+  // .job3 {
+  //   grid-area: job3;
+  // }
   .job {
     background: lighten($primary-color, 5);
-    padding: 0.5rems;
+    padding: 0.5rem;
+    // color: #333;
     border-bottom: $secondary-color 5px solid;
+  }
+}
+#resume-span {
+  background: #eeeeee;
+  color: black;
+  padding: 0.25rem;
+  border-radius: 10%;
+  @include easeOut;
+
+  &:hover {
+    padding: 0.5rem 1.5rem;
+    background: $secondary-color;
+    @include easeOut;
+  }
+}
+
+.stack-div {
+  display: inline;
+
+  .lang-div {
+    margin-top: 1.5rem;
+  }
+
+  .lang-div p {
+    display: inline;
+  }
+  .lang-div p#lang {
+    background: #333;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 10%;
+    @include easeOut;
+
+    &:hover {
+      background: $secondary-color;
+      padding: 0.5rem 1.5rem;
+      color: set-text-color($secondary-color);
+    }
   }
 }
 
