@@ -11,9 +11,9 @@ const navItems = document.querySelectorAll(".nav-item");
 
 let showMenu = false;
 
-menuBtn.addEventListener("click", togglemenu);
+menuBtn.addEventListener("click", toggleMenu);
 
-function togglemenu() {
+function toggleMenu() {
   if (!showMenu) {
     menuBtn.classList.add("close");
     menu.classList.add("show");
