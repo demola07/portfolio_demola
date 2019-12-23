@@ -97,21 +97,21 @@ main {
       font-size: 1.5rem;
     }
   }
-  .job1 {
-    grid-area: job1;
-  }
+  // .job1 {
+  //   grid-area: job1;
+  // }
   // .job2 {
   //   grid-area: job2;
   // }
   // .job3 {
   //   grid-area: job3;
   // }
-  .job {
-    background: lighten($primary-color, 5);
-    padding: 0.5rem;
-    // color: #333;
-    border-bottom: $secondary-color 5px solid;
-  }
+  // .job {
+  //   background: lighten($primary-color, 5);
+  //   padding: 0.5rem;
+  //   // color: #333;
+  //   border-bottom: $secondary-color 5px solid;
+  // }
 }
 #resume-span {
   background: #eeeeee;
@@ -162,7 +162,7 @@ main {
   img {
     width: 400px;
     height: 250px;
-    // width: 100%;
+    width: 100%;
     border: 3px #fff solid;
 
     &:hover {
