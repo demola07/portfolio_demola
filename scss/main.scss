@@ -160,7 +160,9 @@ main {
   grid-gap: 0.7rem;
 
   img {
-    width: 100%;
+    width: 400px;
+    height: 250px;
+    // width: 100%;
     border: 3px #fff solid;
 
     &:hover {
