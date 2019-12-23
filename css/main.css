@@ -174,12 +174,6 @@ main {
     font-size: 1.5rems; }
     .about-info .bio p {
       font-size: 1.5rem; }
-  .about-info .job1 {
-    grid-area: job1; }
-  .about-info .job {
-    background: #515151;
-    padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
 
 #resume-span {
   background: #eeeeee;
@@ -216,6 +210,7 @@ main {
   .projects img {
     width: 400px;
     height: 250px;
+    width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -271,7 +266,9 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .lang-div p#lang {
+    display: block; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -303,7 +300,9 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .lang-div p#lang {
+    display: block; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
